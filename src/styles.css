@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #23252c;
+  padding: 10px;
+}
+.App {
+  font-family: sans-serif;
+  background-color: #1a1b21;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  width: 317px;
+  flex-direction: column;
+}
+.infoDiv {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+.infoDiv > h2 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 5px;
+}
+.infoDiv h4 {
+  font-size: 12.8px;
+  color: #f3bf99;
+  margin: 5px;
+}
+.infoDiv p {
+  font-size: 10.24px;
+  color: #f5f5f5;
+  margin: 5px;
+}
+.profileImage {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+.buttonWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 9px 13px 9px 11px;
+  gap: 15px;
+  margin: 5px;
+}
+.about{
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0 36px;
+  margin: 5px;
+  font-weight: 500;
+}
+.about > p {
+  width: 247px;
+  font-weight: 300;
+  line-height: 15px;
+  word-spacing: 1px;
+  font-size: 10.24px;
+  margin: 5px;
+}
+.about h2 {
+  margin: 5px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.footerWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 0 0 15px 15px;
+  background-color:#161619;
+  padding: 5px 0;
+}
+
+.footerWrapper a{
+  color: white;
+}
